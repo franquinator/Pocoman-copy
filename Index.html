@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Pocoman</title>
+        <link rel="stylesheet" href="LevelCreator.css">
+        <script src="Js/pocoman.js"></script>
+        <script src="Js/objetos.js"></script>
+    </head>
+    <body onload="iniciar()" style="display: flex; flex-direction: column;">
+        <div>
+            <select name="PackSelect" id="lang">
+                <option value="none" disabled selected>Pack Select</option>
+                <option value="classic">Classic</option>
+                <option value="green-machine">Green Machine</option>
+            </select>
+            <select name="LevelSelect" id="lang">
+                <option value="none" disabled selected>Level Select</option>
+                <option value="php">PHP</option>
+                <option value="java">Java</option>
+                <option value="golang">Golang</option>
+                <option value="python">Python</option>
+                <option value="c#">C#</option>
+                <option value="C++">C++</option>
+                <option value="erlang">Erlang</option>
+            </select>
+            <button>Undo</button>
+            <button>Previus Level</button>
+            <button>Next Level</button>
+            <button>Help</button>
+            <button>About</button>
+        </div>
+        <canvas  id="canvas" width="500" height="500" style="border: 2px  solid black;margin: 0 auto; "></canvas>
+        <!-- <div>
+            <a href="LevelCreator.html">Crear Niveles</a>
+            <div class="div-tipo">
+                <button class="boton-pj" id="boton-importar">Cargar nivel</button>
+                <input type="file" id="input-file" hidden>
+            </div>
+
+        </div> -->
+
+    </body>
+</html>
